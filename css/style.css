@@ -14,3 +14,13 @@ nav ::placeholder {
 .card > .list-group > li {
   display: flex;
 }
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hidden {
+    display: table-cell;
+  }
+}
