@@ -6,7 +6,7 @@ nav ::placeholder {
   color: gray !important;
 }
 
-.content .table > tbody > tr > td:nth-child(3) {
+.content .table .btn-container {
   display: flex;
   gap: 5px;
 }
