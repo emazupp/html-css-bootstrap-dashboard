@@ -1,3 +1,7 @@
 #duck-logo {
   width: 65px;
 }
+
+nav ::placeholder {
+  color: gray !important;
+}
