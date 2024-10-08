@@ -10,3 +10,7 @@ nav ::placeholder {
   display: flex;
   gap: 5px;
 }
+
+.card > .list-group > li {
+  display: flex;
+}
