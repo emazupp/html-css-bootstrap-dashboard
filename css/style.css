@@ -5,3 +5,8 @@
 nav ::placeholder {
   color: gray !important;
 }
+
+.content .table > tbody > tr > td:nth-child(3) {
+  display: flex;
+  gap: 5px;
+}
