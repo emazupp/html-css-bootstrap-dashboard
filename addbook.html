@@ -58,6 +58,112 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <div class="container">
+        <h1 class="h3 my-4">Nuovo Libro</h1>
+        <form class="row g-3">
+          <!-- nome autore -->
+          <div class="col-6">
+            <label for="inputEmail4" class="form-label h6">Nome Autore</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="Inserisci il nome dell'autore"
+            />
+          </div>
+          <!-- cognome autore -->
+          <div class="col-6">
+            <label for="inputPassword4" class="form-label h6"
+              >Cognome Autore</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Inserisci il cognome dell'autore"
+            />
+          </div>
+          <!-- titolo -->
+          <div class="col-12">
+            <label for="inputAddress" class="form-label h6">Titolo</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Inserisci il titolo del libro"
+            />
+          </div>
+          <!-- genere -->
+          <div class="col-12 col-lg-4">
+            <label for="inputState" class="form-label h6">Genere</label>
+            <select id="inputState" class="form-select">
+              <option selected>Scegli il genere</option>
+              <option>Azione</option>
+              <option>Fantascienza</option>
+              <option>Giallo</option>
+              <option>Romanzo</option>
+            </select>
+          </div>
+          <!-- anno di pubblicazione -->
+          <div class="col-12 col-lg-4">
+            <label for="inputAddress2" class="form-label h6"
+              >Anno di Pubblicazione</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Inserisci l'anno"
+            />
+          </div>
+          <!-- ISBN# -->
+          <div class="col-12 col-lg-4">
+            <label for="inputCity" class="form-label h6">ISBN#</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCity"
+              placeholder="Inserisci il codice ISBN#"
+            />
+          </div>
+          <!-- hr -->
+          <hr class="mt-5" />
+          <!-- note -->
+          <div class="col-12">
+            <h6>Note</h6>
+            <div class="form-floating">
+              <textarea class="form-control" id="floatingTextarea2"> </textarea>
+              <label for="floatingTextarea2"
+                >Inserisci eventuali note sul libro</label
+              >
+            </div>
+          </div>
+          <!-- checkbox -->
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Disponibile anche in digitale</label
+            >
+          </div>
+          <!-- button add book -->
+          <div class="col-4 mb-5">
+            <button type="submit" class="btn btn-primary">
+              Aggiungi Libro
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
